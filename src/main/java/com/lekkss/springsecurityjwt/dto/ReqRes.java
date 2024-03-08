@@ -5,6 +5,7 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.lekkss.springsecurityjwt.entity.Product;
+import com.lekkss.springsecurityjwt.entity.Users;
 
 import lombok.Data;
 
@@ -25,6 +26,6 @@ public class ReqRes {
     private String role;
     private String password;
     private List<Product> products;
-    private String Users;
+    private Users User;
 
 }
